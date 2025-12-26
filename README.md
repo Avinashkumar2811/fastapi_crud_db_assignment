@@ -60,6 +60,7 @@ Basic automated tests are implemented using pytest.
 
 Run Tests
 pytest
+\Desktop\app_pelocal_assignment> python -m pytest -v
 
 
 Tests cover:
