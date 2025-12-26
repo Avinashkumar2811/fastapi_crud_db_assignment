@@ -31,6 +31,47 @@ To develop a web application using **Python and FastAPI** that:
 > ⚠️ Note: ORM and generic viewsets are **not used**, as per assignment instructions.
 
 ---
+🖥️ Web Interface (Templates)
+The application also provides a basic UI using HTML templates:
+
+Home Page (/)
+Displays list of all tasks
+
+Add Task Page (/add)
+Form to add a new task
+
+Templates are rendered using Jinja2 and interact with backend logic.
+
+
+📑 API Documentation
+FastAPI provides automatic interactive API documentation:
+
+Swagger UI:
+👉 http://127.0.0.1:8000/docs
+
+This includes:
+Endpoint descriptions
+Request/response formats
+Sample payloads
+
+
+🧪 Testing
+Basic automated tests are implemented using pytest.
+
+Run Tests
+pytest
+
+
+Tests cover:
+Create task API
+Retrieve tasks API
+
+
+📜 Logging & Exception Handling
+Logging is configured using Python’s built-in logging module
+Errors are handled gracefully using try/except and HTTPException
+Logs are stored in app.log
+
 
 ▶️ Setup & Run Instructions
 1️⃣ Create Virtual Environment
