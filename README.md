@@ -42,6 +42,7 @@ Form to add a new task
 
 Templates are rendered using Jinja2 and interact with backend logic.
 
+---
 
 📑 API Documentation
 FastAPI provides automatic interactive API documentation:
@@ -54,6 +55,7 @@ Endpoint descriptions
 Request/response formats
 Sample payloads
 
+---
 
 🧪 Testing
 Basic automated tests are implemented using pytest.
@@ -65,12 +67,14 @@ In project folder run --> python -m pytest -v
 Tests cover:
 Create task API
 Retrieve tasks API
+---
 
 
 📜 Logging & Exception Handling
 Logging is configured using Python’s built-in logging module
 Errors are handled gracefully using try/except and HTTPException
 Logs are stored in app.log
+---
 
 
 ▶️ Setup & Run Instructions
@@ -88,12 +92,14 @@ pip install -r requirements.txt
 In project folder run --> uvicorn app.main:app --reload --port 9067
 
 uvicorn app.main:app --reload
+---
 
 4️⃣ Access Application
 
 Web UI: http://127.0.0.1:8000/
 
 API Docs: http://127.0.0.1:8000/docs
+---
 
 ✅ Assignment Requirements Coverage
 
@@ -108,3 +114,4 @@ API Docs: http://127.0.0.1:8000/docs
 ✔ Clean project structure
 ✔ README with setup & usage instructions
 
+---
