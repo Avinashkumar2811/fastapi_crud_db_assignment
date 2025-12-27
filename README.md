@@ -48,7 +48,7 @@ Templates are rendered using Jinja2 and interact with backend logic.
 FastAPI provides automatic interactive API documentation:
 
 Swagger UI:
-👉 http://127.0.0.1:8000/docs
+👉 http://127.0.0.1:9067/docs
 
 This includes:
 Endpoint descriptions
@@ -96,9 +96,9 @@ uvicorn app.main:app --reload
 
 4️⃣ Access Application
 
-Web UI: http://127.0.0.1:8000/
+Web UI: http://127.0.0.1:9067/
 
-API Docs: http://127.0.0.1:8000/docs
+API Docs: http://127.0.0.1:9067/docs
 ---
 
 ✅ Assignment Requirements Coverage
