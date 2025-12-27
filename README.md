@@ -58,9 +58,8 @@ Sample payloads
 🧪 Testing
 Basic automated tests are implemented using pytest.
 
-Run Tests
-pytest
-\Desktop\app_pelocal_assignment> python -m pytest -v
+Run Tests:
+In project folder run --> python -m pytest -v
 
 
 Tests cover:
@@ -77,14 +76,17 @@ Logs are stored in app.log
 ▶️ Setup & Run Instructions
 1️⃣ Create Virtual Environment
 python -m venv .virt
+
 source .virt/bin/activate   # Linux / Mac
+
 .virt\Scripts\activate      # Windows
 
 2️⃣ Install Dependencies
 pip install -r requirements.txt
 
 3️⃣ Run Application
-app_pelocal_assignment> uvicorn app.main:app --reload --port 9067
+In project folder run --> uvicorn app.main:app --reload --port 9067
+
 uvicorn app.main:app --reload
 
 4️⃣ Access Application
